@@ -1,0 +1,79 @@
+PROYECTO: STORAGE CLOUD
+ENTREGA FINAL
+
+
+1. APRENDIZAJES DURANTE EL DESARROLLO
+
+Durante el desarrollo de Storage Cloud se fortalecieron
+los conocimientos de programación en Java, especialmente
+en la creación, lectura y escritura de archivos CSV y TXT.
+
+También se practicaron la generación de datos
+pseudoaleatorios, el manejo de excepciones y la
+organización del código mediante clases y métodos.
+
+Se aprendió a procesar cuentas y transferencias, calcular
+el almacenamiento utilizado y generar reportes que
+identifican las cuentas que superan su cuota contratada.
+
+
+2. APLICACIONES EN LA VIDA PROFESIONAL
+
+Los conocimientos adquiridos pueden aplicarse al
+desarrollo de programas que automaticen procesos de
+lectura, procesamiento y generación de archivos.
+
+La lógica implementada puede utilizarse como referencia
+para sistemas de control de recursos, seguimiento del
+consumo y generación de reportes.
+
+Estas habilidades permiten desarrollar soluciones que
+reduzcan tareas manuales y faciliten el análisis de
+información en las organizaciones.
+
+
+3. DIFICULTADES PRESENTADAS DURANTE EL DESARROLLO
+
+Durante el desarrollo de Storage Cloud se presentaron
+diferentes dificultades técnicas que requirieron pruebas
+para garantizar el funcionamiento de la aplicación.
+
+Una de las primeras dificultades estuvo relacionada con
+la versión de Java. La guía académica establecía Java 8,
+mientras que NetBeans tenía configurado JDK 25.
+Se decidió continuar el desarrollo con Java 25, teniendo
+presente la diferencia entre ambas versiones. No se
+comprobó la compatibilidad del proyecto con Java 8.
+
+Otra dificultad estuvo relacionada con la ubicación de
+los archivos generados. Al ejecutar GenerateInfoFiles,
+los archivos se crearon correctamente, pero inicialmente
+no fue evidente dónde encontrarlos. Esto permitió
+comprender la importancia de las rutas relativas y del
+directorio de trabajo de la aplicación.
+
+También fue necesario comprobar la coherencia entre las
+cuentas y las transferencias, así como verificar el
+cálculo del almacenamiento a partir de las subidas y
+bajadas. Posteriormente, se probaron las opciones del
+menú y la generación del archivo exceso.csv.
+
+Durante la descarga se presentó un inconveniente al
+introducir la ruta de destino. Inicialmente se indicó
+solo la carpeta Descargas, sin incluir el nombre del
+archivo. El problema se resolvió especificando la ruta
+completa.
+
+La publicación en GitHub también requirió configurar la
+URL del repositorio remoto, seleccionar la rama master
+y completar el proceso de autenticación.
+
+Finalmente, se observaron problemas de visualización
+de algunos caracteres acentuados en la consola. Esto
+evidenció la importancia de considerar la codificación
+de caracteres en las aplicaciones.
+
+Estas dificultades permitieron fortalecer los
+conocimientos sobre configuración del entorno,
+manejo de archivos, pruebas funcionales y control
+de versiones.
